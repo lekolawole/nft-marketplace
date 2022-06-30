@@ -29,3 +29,9 @@ This app was built using:
 <li>Follow the link to 'Vew in Expo Store'</li>
 <li>Scan the QR code to interact with ProNef in real time</li>
 <li>Enjoy!</li>
+</ol>
+
+#### Credits
+<a href='https://dribbble.com/alvxyz'>Alvian Teddy Cahya Putra</a> for design and artwork
+<br />
+<a href='https://github.com/adrianhajdin/react-native-nft-marketplace'>JS Mastery</a> for project guidelines
