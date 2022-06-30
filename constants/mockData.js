@@ -1,3 +1,5 @@
+// Mock data for NFT's - ARRAY INCLUDES 
+//    { id, name, creator, price, description, image, bids: [] }
 import assets from "./assets";
 
 const NFTData = [
