@@ -1,3 +1,6 @@
+// Contains components for detailed info about each NFT 
+// Exported as a single file 
+
 import React from 'react';
 import { Text, View, Image } from 'react-native';
 import { SIZES, FONTS, COLORS, SHADOWS, assets } from '../constants';

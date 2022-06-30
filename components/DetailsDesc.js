@@ -1,9 +1,11 @@
-import { View, Text, Image } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+//This is the middle component that appears on the Details screen
+// It contains NFT description
+
+import { View, Text } from 'react-native';
 
 import { useState } from 'react';
 import { EthPrice, NFTTitle } from './SubInfo';
-import { COLORS, SIZES, SHADOWS, assets, FONTS } from '../constants';
+import { COLORS, SIZES, FONTS } from '../constants';
 
 const DetailsDesc = ({ data }) => {
   const [text, setText] = useState(data.description.slice(0, 100));
@@ -37,7 +39,6 @@ const DetailsDesc = ({ data }) => {
                 {readMore ? 'Show Less' : 'Read More'}
             </Text>
           </Text>
-          
         </View>
       </View>
     </>

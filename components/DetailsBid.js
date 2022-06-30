@@ -1,7 +1,9 @@
-import { View, Text, Image } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+// This is the lower component that appears on the Details screen
+// It displays the bids and bidder information for the current NFT on display
 
-import { COLORS, SIZES, SHADOWS, assets, FONTS } from '../constants';
+import { View, Text, Image } from 'react-native';
+
+import { COLORS, SIZES, FONTS } from '../constants';
 import { EthPrice } from './SubInfo';
 
 const DetailsBid = ({ bid }) => {
